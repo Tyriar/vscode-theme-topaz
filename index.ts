@@ -90,12 +90,7 @@ const colorSet: IColorSet = {
     "gitDecoration.ignoredResourceForeground": "#535a6b",
     "editorError.foreground": colors.red,
     "editorWhitespace.foreground": "#404040",
-    "editorIndentGuide.activeBackground": "#535353",
-    // "statusBarItem.remoteBackground": colors.accent,
-    // "statusBarItem.remoteForeground": "#000000",
-    // "badge.background": colors.accent,
-    // "badge.foreground": "#000000",
-    // "activityBarBadge.foreground": "#000000"
+    "editorIndentGuide.activeBackground": "#535353"
   }
 };
 
