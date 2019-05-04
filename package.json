@@ -2,7 +2,7 @@
   "name": "theme-topaz",
   "displayName": "Topaz Theme",
   "description": "Topaz is a theme for Visual Studio Code featuring vibrant editor colors with a bright yellow primary accent color",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "Tyriar",
   "icon": "images/icon.png",
   "license": "MIT",
