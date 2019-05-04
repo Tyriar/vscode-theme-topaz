@@ -52,9 +52,8 @@ const colorSet: IColorSet = {
     findMatchHighlight: '#cb606080',
     // Brighter red 50% opacity
     currentFindMatchHighlight: '#ff777780',
-    selection: '#153958',
-    // Blue 50% opacity
-    selectionHighlight: '#2b74b380',
+    selection: '#42400f',
+    selectionHighlight: '#42400f80',
     // White with ~10% opacity
     wordHighlight: '#ffffff18',
     wordHighlightStrong: '#ffffff18',
@@ -102,8 +101,8 @@ const colorSet: IColorSet = {
 
 generateTheme('Sapphire', colorSet, path.join(__dirname, 'theme.json'));
 
-colorSet.base.background = '#242d3d'
+colorSet.base.background = '#262626'
 generateTheme('Sapphire (Bright)', colorSet, path.join(__dirname, 'theme-bright.json'));
 
-colorSet.base.background = '#080d14'
+colorSet.base.background = '#060606'
 generateTheme('Sapphire (Dim)', colorSet, path.join(__dirname, 'theme-dim.json'));
