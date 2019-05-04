@@ -2,7 +2,7 @@ Topaz is a theme for Visual Studio Code featuring vibrant editor colors with a b
 
 This theme customizes colors in the editor, workbench and integrated terminal.
 
-TODO: Add a preview image
+![Visual Studio Code Topaz theme preview](images/preview.png)
 
 ## Semantic colors
 
