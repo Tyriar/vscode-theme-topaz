@@ -1,0 +1,51 @@
+{
+  "name": "theme-topaz",
+  "displayName": "Topaz Theme",
+  "description": "Topaz is a theme for Visual Studio Code using a bright yellow accent color",
+  "version": "0.1.0",
+  "publisher": "Tyriar",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Tyriar/vscode-theme-topaz/issues"
+  },
+  "homepage": "https://github.com/Tyriar/vscode-theme-topaz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyriar/vscode-theme-topaz"
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Topaz",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      },
+      {
+        "label": "Topaz (Bright)",
+        "uiTheme": "vs-dark",
+        "path": "./theme-bright.json"
+      },
+      {
+        "label": "Topaz (Dim)",
+        "uiTheme": "vs-dark",
+        "path": "./theme-dim.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.10",
+    "typescript": "^2.2.1",
+    "vscode-theme-generator": "^0.1.0"
+  }
+}
