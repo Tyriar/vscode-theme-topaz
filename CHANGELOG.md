@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Upgraded to vscode-theme-generato 0.2.1 (from 0.1.3), fixing various issues
+
 ## 0.1.2
 
 - Improve contrast on lists
